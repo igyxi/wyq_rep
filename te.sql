@@ -1,0 +1,22 @@
+
+create table ODS_Product.SKU_Mapping (   
+     sku_cd nvarchar(1024) comment ''
+,    main_cd nvarchar(1024) comment ''
+,    sku_name_en nvarchar(1024) comment ''
+,    sku_name_cn nvarchar(1024) comment ''
+,    category nvarchar(1024) comment ''
+,    category_sub nvarchar(1024) comment ''
+,    brand nvarchar(1024) comment ''
+,    brand_type nvarchar(1024) comment ''
+,    franchise nvarchar(1024) comment ''
+,    range nvarchar(1024) comment ''
+,    segment nvarchar(1024) comment ''
+,    first_function nvarchar(1024) comment ''
+,    target nvarchar(1024) comment ''
+,    sls_type_cntable nvarchar(1024) comment ''
+,    range_cntable nvarchar(1024) comment ''
+,    dchain_spec_status nvarchar(1024) comment ''
+,    plant_sp_matl_status nvarchar(1024) comment ''
+,    dt nvarchar(20) comment ''
+,    insert_timestamp datetime(8) comment '' 
+)
